@@ -23,7 +23,7 @@ const center = {
 function Map() {
 
     const { isLoaded, loadError } = useLoadScript({
-        googleMapsApiKey: 'AIzaSyAY_i6KSI1lOUAXRfEIxMtQ2TGoLtYzfVI',
+        googleMapsApiKey: 'API-KEY', // AQUI VOCÊ COLOCA SUA CHAVE DE API
         libraries,
     });
 
